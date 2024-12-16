@@ -1,1 +1,12 @@
-/* место для вашего кода */
+.header{
+    background-color: #FFFF;
+}
+
+.header__logo{
+    display: flex;
+}
+
+.header__logo-image{
+    display: flex;
+    width: auto;
+}
