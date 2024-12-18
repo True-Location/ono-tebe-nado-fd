@@ -5,23 +5,25 @@ body {
 }
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
   background-color: #ffffff;
-
+  padding: auto;
 }
 
-.header__menu {
-  padding-left: 50px;
-  padding-top: 133px;
-  
-}
+
 
 .header__menu-list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
   line-height: 21.13px;
-  size: 18px;
+  font-size: 18px; 
+  padding-left: 50px;
+  padding-right: 36.52px;
 }
 
 .header__links-list-item_no-bullit {
@@ -35,6 +37,15 @@ body {
 .header__menu-link {
   font-style: normal;
   color: black;
-  
 }
 
+.header__logo{
+  display: block;
+  padding-top: 92px;
+  padding-bottom: 96px;
+}
+
+.header__logo-image{
+  width: 148px;
+  height: auto;
+}
