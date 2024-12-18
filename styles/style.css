@@ -10,6 +10,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   padding: auto;
+
 }
 
 
@@ -41,11 +42,20 @@ body {
 
 .header__logo{
   display: block;
-  padding-top: 92px;
   padding-bottom: 96px;
 }
 
 .header__logo-image{
   width: 148px;
-  height: auto;
+
+}
+
+.header__address{
+  padding-left: 184px;
+  padding-right: 50px;
+}
+
+.cover{
+  display: grid;
+  align-content: start;
 }
