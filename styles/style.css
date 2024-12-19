@@ -54,15 +54,10 @@ body {
 
 .cover {
   position: relative;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 115%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(./images/cover.jpg);
-  width: 100vw;
-  height: 100vh;
 }
 
 .cover-image {
@@ -70,19 +65,22 @@ body {
   color: black;
   background-position: center;
   z-index: -1;
-  height: auto;
+}
+
+.image__file{
+  height: 737px;
 }
 
 .overlay {
   position: absolute;
   width: 1100px;
-  height: 608px;
+  height: 737px;
   background: #000000;
   opacity: 0.6;
   z-index: 0;
 }
 
-.cover__title {
+/*.cover__title {
   position: relative;
   z-index: 3;
   color: #ffffff;
@@ -90,6 +88,9 @@ body {
   padding-left: 50px;
   margin-top: -457px;
   letter-spacing: 30px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115%;
 }
 
 .aligned-text {
@@ -109,4 +110,6 @@ body {
   z-index: 3;
   color: #ffffff;
   white-space: nowrap;
+  padding-bottom: 50px;
 }
+*/
