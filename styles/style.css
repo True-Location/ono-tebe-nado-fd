@@ -9,7 +9,7 @@ body {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   background-color: #ffffff;
- 
+
   padding: auto;
 }
 
@@ -61,21 +61,21 @@ body {
   background-image: url(./images/cover.jpg);
   width: 1100px;
   height: 737px;
+  overflow: hidden;
 }
 
 .cover-image {
   position: relative;
   color: black;
   z-index: -1;
-
+  width: 1100px;
+  height: 737px;
 }
 
-.image__file{
-  position: relative;
-  right: 60px;
-  padding-left: 100px;
-  height: 737px;
-  width: 1100px;
+.image__file {
+  width: 121%;
+  height: 100%;
+  margin-left: -120px;
 }
 
 .overlay {
@@ -94,15 +94,13 @@ body {
   color: #ffffff;
   font-size: 100px;
   letter-spacing: 30px;
-  inset:-722px 0 0 0 ;
-
+  inset: -722px 0 0 0;
 }
 
 .aligned-text {
   display: block;
   padding-top: 133px;
   padding-left: 50px;
-  
 }
 
 .aligned-text_center {
@@ -115,7 +113,6 @@ body {
   text-align: right;
   padding-right: 20px;
   padding-top: 18px;
-
 }
 
 .description {
@@ -123,5 +120,4 @@ body {
   z-index: 3;
   color: #ffffff;
   white-space: nowrap;
-  
 }
