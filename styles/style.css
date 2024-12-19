@@ -53,21 +53,24 @@ body {
 }
 
 .cover {
-  display: flex;
-  align-items: start;
-  color: #ffffff;
+  position: relative;
   font-size: 100px;
   font-weight: 700;
   line-height: 115%;
-  max-height: 757px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./images/cover.jpg);
+  width: 100vw;
+  height: 100vh;
 }
 
 .cover-image {
   position: relative;
   color: black;
-  background-size: cover;
   background-position: center;
   z-index: -1;
+  height: auto;
 }
 
 .overlay {
@@ -79,28 +82,31 @@ body {
   z-index: 0;
 }
 
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  position: absolute;
-  z-index: 1;
+.cover__title {
+  position: relative;
+  z-index: 3;
+  color: #ffffff;
   font-size: 100px;
-}
-
-.aligned-text{
   padding-left: 50px;
-  padding-top: 165px;
+  margin-top: -457px;
+  letter-spacing: 30px;
 }
 
-.aligned-text_center{
-  padding-left: 380.5px;
-  padding-bottom: 342px;
+.aligned-text {
+  display: block;
 }
 
-.aligned-text_right{
-  padding-left: 663px;
-  padding-bottom: 207px;
+.aligned-text_center {
+  text-align: center;
 }
 
+.aligned-text_right {
+  text-align: right;
+}
 
+.description {
+  position: relative;
+  z-index: 3;
+  color: #ffffff;
+  white-space: nowrap;
+}
