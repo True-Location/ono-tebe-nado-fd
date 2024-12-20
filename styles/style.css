@@ -118,7 +118,7 @@ body {
 
 .button {
   box-sizing: border-box;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   position: absolute;
   width: 256px;
   height: 51px;
@@ -127,16 +127,13 @@ body {
   background: transparent;
   font-family: Raleway, sans-serif;
   z-index: 3;
-  
 }
 
-
-
-.bet-button{
+.bet-button {
   position: absolute;
   width: 193px;
   height: 28px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -146,13 +143,3 @@ body {
   left: 50px;
   bottom: 5px;
 }
-
-
-
-/*.a{
-
-}*/
-
-
-
-
