@@ -44,6 +44,7 @@ body {
 
 .header__logo-image {
   width: 148px;
+  height: 105px;
 }
 
 .header__address {
@@ -61,14 +62,14 @@ body {
   height: 737px;
 }
 
-.overlay {
+/*.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   background: #000000;
   opacity: 0.6;
   z-index: 0;
-}
+}*/
 
 .cover__title {
   position: absolute;
@@ -102,6 +103,8 @@ body {
   color: #ffffff;
   white-space: nowrap;
   padding: 656px 0 50px 50px;
+  width: 1000px;
+  height: 51px;
 }
 
 .cover__description-text {
@@ -110,6 +113,41 @@ body {
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing:21px;
+  word-spacing: 21px;
 }
+
+.button {
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  width: 256px;
+  height: 51px;
+  left: 794px;
+  top: 656px;
+  background: transparent;
+  font-family: Raleway, sans-serif;
+  z-index: 3;
+  
+}
+
+
+
+.bet-button{
+  position: absolute;
+  width: 193px;
+  height: 28px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  left: 50px;
+  bottom: 5px;
+}
+
+
+
+
 
