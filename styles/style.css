@@ -76,13 +76,11 @@ body {
   color: #ffffff;
   font-size: 100px;
   letter-spacing: 30px;
-  inset: -741px 0 0 0;
 }
 
 .aligned-text {
   display: block;
-  padding-top: 133px;
-  padding-left: 50px;
+  
 }
 
 .aligned-text_center {
@@ -99,7 +97,7 @@ body {
 
 .description {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   color: #ffffff;
   white-space: nowrap;
 }
