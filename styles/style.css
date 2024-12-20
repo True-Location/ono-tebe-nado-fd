@@ -79,20 +79,21 @@ body {
 }
 
 .aligned-text {
-  display: block;
-  
+  position: absolute;
+  top: 165px;
+  left: 50px;
 }
 
 .aligned-text_center {
   text-align: center;
-  padding-top: 17px;
-  padding-left: 30px;
+  top: 300px;
+  left: 380.5px;
 }
 
 .aligned-text_right {
   text-align: right;
-  padding-right: 20px;
-  padding-top: 18px;
+  left: 663px;
+  top: 435px;
 }
 
 .description {
@@ -100,6 +101,7 @@ body {
   z-index: 1;
   color: #ffffff;
   white-space: nowrap;
+  padding: 656px 0 50px 50px;
 }
 
 .cover__description-text {
@@ -108,4 +110,6 @@ body {
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
+  word-spacing:21px;
 }
+
