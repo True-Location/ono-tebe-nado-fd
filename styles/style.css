@@ -9,6 +9,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   padding: 92px 50px 96px;
+  height: 293px;
 }
 
 .header__menu-list {
@@ -53,10 +54,9 @@ body {
 }
 
 .header__address {
-  position: absolute;
-  left: 1100px;
+  padding-left: 184px;
   font-size: 18px;
-  max-width: 290px;
+
   font-style: normal;
   line-height: 1.35;
 }
