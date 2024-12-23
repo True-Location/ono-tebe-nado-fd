@@ -196,8 +196,9 @@ body {
 }
 
 .lots__card-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
   gap: 25px;
   list-style: none;
 }
@@ -225,17 +226,14 @@ body {
   color: #ffffff;
   z-index: 1;
   padding: 48px 40px 466px;
-  width: 254px;
-  height: 82px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 26.4px;
   text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: none;
+
 }
 
-.card__text{
+.card__text_film{
 position: absolute;
 height: 144px;
 left: 40px;
@@ -258,6 +256,7 @@ color: #FFFFFF;
   width: 334px;
   height: 596px;
   left: 358px ;
+  
 }
 
 .card_type_picture {
@@ -272,32 +271,44 @@ color: #FFFFFF;
 }
 
 .lots__look-more-link{
- /* more */
-
-position: absolute;
-width: 192px;
-height: 25px;
-left: 40px;
-bottom: -2px;
-
-
-
-
-/* посмотреть больше */
-
-position: absolute;
-width: 192px;
-height: 23px;
-left: 40px;
-bottom: 0px;
-
+  width: 192px;
+  
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 23px;
-
 color: #000000;
-
-
 }
+
+.card__text_book{
+  position: absolute;
+ padding: 188px 40px 48px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFFFF;
+  }
+
+
+
+
+
+
+
+
+
+.card__text_picture{
+  position: absolute;
+  padding: 284px 40px 48px;
+  height: 144px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
