@@ -183,7 +183,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 25px;
-
 }
 
 .lots__heading {
@@ -201,8 +200,7 @@ body {
 }
 
 .lots__card-list {
-list-style: none;
-
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -235,7 +233,7 @@ list-style: none;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-size:cover;
+  background-size: cover;
   background-position: top;
 }
 
@@ -260,7 +258,7 @@ list-style: none;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-size:cover;
+  background-size: cover;
   background-position: top;
   left: 358px;
 }
@@ -283,7 +281,7 @@ list-style: none;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  background-size:cover;
+  background-size: cover;
   background-position: top;
   left: 718px;
 }
@@ -309,7 +307,4 @@ list-style: none;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-
 }
-
-
