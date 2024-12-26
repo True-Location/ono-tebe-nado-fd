@@ -1,10 +1,10 @@
 html {
-  background-color: antiquewhite;
+  background-color: black;
 }
 
 body {
   margin: 0 auto;
-  min-width: 1100px;
+  max-width: 1100px;
   background-color: white;
 }
 
@@ -357,4 +357,22 @@ body {
 
 .about__text__bottom {
   padding: 24px 0 0 0;
+}
+
+.footer{
+  width: 1100px;
+  height: 180px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__address {
+  font-size: 18px;
+  width: 264.57px;
+  height: 98px;
+  font-style: normal;
+  line-height: 1.35;
+  margin: 0 785.43px 82px 50px;
+  text-underline-offset: 4px;
 }
