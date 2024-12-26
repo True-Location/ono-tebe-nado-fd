@@ -293,8 +293,6 @@ body {
 }
 
 .about {
-  width: 1052px;
-  height: 595px;
   margin: 120px 24px 0;
   display: grid;
   grid-template-columns: 334px 2fr;
@@ -315,14 +313,8 @@ body {
   margin: 64px 45.52px 62px 46.48px;
 }
 
-.about__text-content {
-  width: 693px;
-  height: 449px;
-}
 
 .about__title {
-  width: 291px;
-  height: 47px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
