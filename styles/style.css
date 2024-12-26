@@ -1,7 +1,10 @@
+html{
+  background-color: antiquewhite;
+}
 body {
   margin: 0 auto;
-  width: 1100px;
-  
+  min-width: 1100px;
+  background-color: white;
 }
 
 .header {
@@ -54,21 +57,12 @@ body {
 }
 
 .header__address {
-  position: absolute;
-  left: 1100px;
   font-size: 18px;
-  max-width: 290px;
+  width: 240px;
+  height: 98px; 
   font-style: normal;
   line-height: 1.35;
-}
-
-.tel {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.mail {
-  text-decoration: underline;
+  margin-left:184px;
   text-underline-offset: 4px;
 }
 
@@ -316,6 +310,7 @@ body {
   margin: 120px 24px 0;
   display: grid;
   grid-template-columns: 334px 2fr;
+  background-color: #ffffff;
 }
 
 .about__logo {
@@ -356,9 +351,9 @@ body {
 }
 
 .about__text__top {
- padding: 150px 5px 0 0;
+  padding: 150px 5px 0 0;
 }
 
 .about__text__bottom {
-  padding: 24px 0 0 0; 
+  padding: 24px 0 0 0;
 }
