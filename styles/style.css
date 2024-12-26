@@ -1,6 +1,4 @@
-html {
-  background-color: black;
-}
+
 
 body {
   margin: 0 auto;
@@ -359,12 +357,11 @@ body {
   padding: 24px 0 0 0;
 }
 
-.footer{
-  width: 1100px;
-  height: 180px;
+.footer {
   background-color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+ 
 }
 
 .footer__address {
@@ -373,6 +370,34 @@ body {
   height: 98px;
   font-style: normal;
   line-height: 1.35;
-  margin: 0 785.43px 82px 50px;
   text-underline-offset: 4px;
+  margin-left: 50px;
+  
+}
+
+.footer__menu{
+  width: 163.9px;
+  height: 64px;
+  
+}
+
+.footer__menu-item {
+  list-style: none ;
+}
+
+.footer__links-list-item_no-bullit{
+  list-style: none ;
+}
+
+
+
+.social{
+  width: 240px;
+  height: 48px;
+}
+
+
+.footer__logo-image{
+  width: 48px;
+  height: 48px;
 }
