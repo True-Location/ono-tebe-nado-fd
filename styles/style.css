@@ -17,12 +17,12 @@ body {
   grid-template-columns: auto auto auto;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
   line-height: 21.13px;
   font-size: 18px;
 }
 
 .header__links-list-item_no-bullit {
+  list-style: none;
   text-decoration: none;
 }
 
@@ -391,22 +391,19 @@ body {
   text-align: center;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 48px;
 }
 
-
 .footer__logo-image {
   width: 48px;
   height: 48px;
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   list-style: none;
- margin-left: 11px;
-
+  margin-left: 11px;
 }
-
